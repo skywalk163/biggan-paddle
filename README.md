@@ -1,5 +1,5 @@
 # biggan-paddle
-biggan的paddle实现
+论文复现：biggan的paddle实现
 
 直接运行python train.py就可以开始训练
 
@@ -25,7 +25,7 @@ python train.py  --draw True --saveimg True
 
 
 因为水平有限，复现的还很不到位。
-另外还可以通过百度aistudio的项目直接复现，aistudio提供特斯拉V100的gpu卡，用起来贼爽！
-https://aistudio.baidu.com/aistudio/projectdetail/861109
+另外还可以通过百度aistudio的项目直接运行复现，aistudio提供特斯拉V100的gpu卡，用起来贼爽！
+项目复现地址：https://aistudio.baidu.com/aistudio/projectdetail/861109
 
 
