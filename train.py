@@ -804,7 +804,7 @@ def main():
 #     help='if save imgs to file')
 # parser.add_argument('--model_path', type=str, default="./output",
 #     help='where to load or save model')
-    train(cifar10_generator, epoch_num=args.epoch_num, batch_size=BATCH_SIZE, use_gpu=True, load_model=args.load_model, model_path = args.model_path, n_class=10, draw=args.draw, saveimg=args.saveimg) # 10
+    train(cifar10_generator, epoch_num=args.epoch_num, batch_size=args.batch_size, use_gpu=True, load_model=args.load_model, model_path = args.model_path, n_class=10, draw=args.draw, saveimg=args.saveimg) # 10
 
 
 
